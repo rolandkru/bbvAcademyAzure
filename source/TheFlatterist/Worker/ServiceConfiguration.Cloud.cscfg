@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="Worker" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="JobWorker">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=theflatterist;AccountKey=y9yG05qIryQmqBTgVS8k1YL3ag93iQY5pfJEYape9IVQIC7wsftb2Tn3OBwiW8dEArcYrzovIafNRBu/FS+L6Q==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=http;AccountName=theflatterist;AccountKey=y9yG05qIryQmqBTgVS8k1YL3ag93iQY5pfJEYape9IVQIC7wsftb2Tn3OBwiW8dEArcYrzovIafNRBu/FS+L6Q==;" />
+      <Setting name="ServiceBusConnectionString" value="Endpoint=sb://flatterist.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=lv5PigYUVq/VwarsevD/SvNyeheEZQIiJXAOGgObkLA=" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

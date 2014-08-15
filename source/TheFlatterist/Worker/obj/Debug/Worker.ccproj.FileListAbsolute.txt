@@ -1,0 +1,2 @@
+c:\users\rolandkrummenacher\documents\visual studio 2013\Projects\TheFlatterist\Worker\bin\Debug\ServiceConfiguration.cscfg
+c:\users\rolandkrummenacher\documents\visual studio 2013\Projects\TheFlatterist\Worker\bin\Debug\ServiceDefinition.csdef

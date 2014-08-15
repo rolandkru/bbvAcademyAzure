@@ -1,0 +1,4 @@
+C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web.Common\bin\Release\Web.Common.dll
+C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web.Common\bin\Release\Web.Common.pdb
+C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web.Common\obj\Release\Web.Common.dll
+C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web.Common\obj\Release\Web.Common.pdb
