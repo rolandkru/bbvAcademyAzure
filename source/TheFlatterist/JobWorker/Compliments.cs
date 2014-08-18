@@ -71,10 +71,12 @@ namespace JobWorker
             "you are a majestic unicorn."
         };
 
-        public static string GetRandomCompliment()
+        public static string GetRandomCompliment(string name)
         {
             int r = rnd.Next(compliments.Count);
-            return compliments[r];
+            var c = compliments[r];
+
+            return string.Format("{0}, {1}", name, c);
         }
     }
 }

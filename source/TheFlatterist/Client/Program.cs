@@ -12,6 +12,8 @@ namespace Client
     using System;
 
     using Client.Labs;
+    using Client.Labs.Lab2;
+    using Client.Labs.Lab3;
 
     /// <summary>
     /// The program.
@@ -33,11 +35,11 @@ namespace Client
 
             var name = args[0];
 
-            ////var clientLogic = new Lab1();
-            ////var clientLogic = new Lab2();
-            var clientLogic = new Lab3();
+            //// var clientLogic = new Lab1Client();
+            //// var clientLogic = new Lab2Client();
+            var clientLogic = new Lab3Client();
 
-            clientLogic.Run(name);
+            clientLogic.RunAsync(name).Wait();
         }
     }
 }

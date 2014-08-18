@@ -1,12 +1,3 @@
-// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="WorkerRole.cs" company="">
-//   
-// </copyright>
-// <summary>
-//   Defines the WorkerRole type.
-// </summary>
-// --------------------------------------------------------------------------------------------------------------------
-
 namespace JobWorker
 {
     using System;
@@ -24,6 +15,18 @@ namespace JobWorker
         private readonly CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
         private readonly ManualResetEvent runCompleteEvent = new ManualResetEvent(false);
 
+        public override bool OnStart()
+        {
+            // Set the maximum number of concurrent connections
+            ServicePointManager.DefaultConnectionLimit = 12;
+
+            bool result = base.OnStart();
+
+            Trace.TraceInformation("JobWorker has been started");
+
+            return result;
+        }
+
         public override void Run()
         {
             Trace.TraceInformation("JobWorker is running");
@@ -38,19 +41,20 @@ namespace JobWorker
             }
         }
 
-        public override bool OnStart()
+        private async Task RunAsync(CancellationToken cancellationToken)
         {
-            // Set the maximum number of concurrent connections
-            ServicePointManager.DefaultConnectionLimit = 12;
-
-            // For information on handling configuration changes
-            // see the MSDN topic at http://go.microsoft.com/fwlink/?LinkId=166357.
-
-            bool result = base.OnStart();
-
-            Trace.TraceInformation("JobWorker has been started");
-
-            return result;
+            try
+            {
+                //// var lab = new Lab1Worker();
+                //// var lab = new Lab2Worker(); 
+                var lab = new Lab3Worker(); 
+                await lab.RunAsync(cancellationToken);
+            }
+            catch (Exception exp)
+            {
+                Trace.TraceError(exp.ToString());
+                throw;
+            }
         }
 
         public override void OnStop()
@@ -63,21 +67,6 @@ namespace JobWorker
             base.OnStop();
 
             Trace.TraceInformation("JobWorker has stopped");
-        }
-
-        private async Task RunAsync(CancellationToken cancellationToken)
-        {
-            try
-            {
-                ////var lab = new Lab1();
-                var lab = new Lab3(); 
-                await lab.RunAsync(cancellationToken);
-            }
-            catch (Exception exp)
-            {
-                Trace.TraceError(exp.ToString());
-                throw;
-            }
         }
     }
 }

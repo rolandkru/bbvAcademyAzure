@@ -10,51 +10,41 @@
 namespace Web.Controllers
 {
     using System;
+    using System.Data.Entity;
     using System.Linq;
-    using System.Net;
+    using System.Threading.Tasks;
     using System.Web.Http;
+
+    using Common;
+    using Common.Dtos;
+    using Common.Helper;
 
     using Microsoft.ServiceBus;
     using Microsoft.ServiceBus.Messaging;
     using Microsoft.WindowsAzure;
-    using Microsoft.WindowsAzure.Storage;
     using Microsoft.WindowsAzure.Storage.Blob;
 
-    using Web.Common;
     using Web.DataAccess;
 
     public class Lab3Controller : ApiController
     {
-        private const string StorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=theflatterist;AccountKey=y9yG05qIryQmqBTgVS8k1YL3ag93iQY5pfJEYape9IVQIC7wsftb2Tn3OBwiW8dEArcYrzovIafNRBu/FS+L6Q==;";
-
-        private const string serviceBusNamespace = "flatterist";
-        private const string sasKey = "RT9H5z3VQIzPn533rsJpOEN2t+mAH9kTS0bzE32cMJo=";
-
-        readonly string serviceBusConnectionString = CloudConfigurationManager.GetSetting("Microsoft.ServiceBus.ConnectionString");
-
+        private readonly string serviceBusConnectionString = CloudConfigurationManager.GetSetting("Microsoft.ServiceBus.ConnectionString");
+        private readonly string serviceBusNamespace = CloudConfigurationManager.GetSetting("ServiceBusNamespace");
+        private readonly string sasKey = CloudConfigurationManager.GetSetting("SasPolicyKey");
 
         // GET api/lab3/[id]
-        public SasDto Get(string clientId)
+        public async Task<SasDto> Get(string clientId)
         {
-            Client client;
-            using (var dbcontext = new Flatterist())
-            {
-                client = dbcontext.Clients.FirstOrDefault(c => c.ClientId.Equals(clientId, StringComparison.OrdinalIgnoreCase));
-                if (client == null)
-                {
-                    client = new Client { ClientId = clientId, QueueName = "jobqueue" };
-                    dbcontext.Clients.Add(client);
-                }
-            }
+            var client = await GetClientInfoFromDB(clientId);
 
-            this.SetupQueue(client.QueueName, "Send", AccessRights.Send);
-            this.SetupQueue(client.ClientId, "Listen", AccessRights.Listen, TimeSpan.FromHours(24));
+            await this.SetupQueue(client.QueueName, "Send", AccessRights.Send);
+            await this.SetupQueue(client.ClientId, "Listen", AccessRights.Listen, TimeSpan.FromHours(24));
 
             var sasDto = new SasDto();
             sasDto.ExpirationTime = DateTimeOffset.Now.AddHours(24);
-            sasDto.BlobContainerUrl = this.GetBlobContainerSas(sasDto.ExpirationTime, client.ClientId);
+            sasDto.BlobContainerUrl = await this.GetBlobContainerSas(sasDto.ExpirationTime, client.ClientId);
             
-            sasDto.ServiceBusNamespace = serviceBusNamespace;
+            sasDto.ServiceBusNamespace = this.serviceBusNamespace;
             
             sasDto.JobQueue = client.QueueName;
             sasDto.JobQueueSasUrl = this.GetQueueSas(client.QueueName, "Send", TimeSpan.FromHours(24));
@@ -65,17 +55,26 @@ namespace Web.Controllers
             return sasDto;
         }
 
-        private string GetBlobContainerSas(DateTimeOffset expirationTime, string clientId)
+        private static async Task<Client> GetClientInfoFromDB(string clientId)
         {
-            // Retrieve storage account from connection string.
-            CloudStorageAccount storageAccount = CloudStorageAccount.Parse(StorageConnectionString);
+            Client client;
+            using (var dbcontext = new Flatterist())
+            {
+                client = await dbcontext.Clients.FirstOrDefaultAsync(c => c.ClientId.Equals(clientId, StringComparison.OrdinalIgnoreCase));
+                if (client == null)
+                {
+                    client = new Client { ClientId = clientId, QueueName = Constants.Lab3JobQueueName };
+                    dbcontext.Clients.Add(client);
+                    await dbcontext.SaveChangesAsync();
+                }
+            }
 
-            // Create the blob client.
-            CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
+            return client;
+        }
 
-            // Retrieve reference to a container.
-            CloudBlobContainer container = blobClient.GetContainerReference(clientId);
-            container.CreateIfNotExists();
+        private async Task<string> GetBlobContainerSas(DateTimeOffset expirationTime, string clientId)
+        {
+            CloudBlobContainer container = await HelperMethods.GetJobContainer(clientId);
 
             SharedAccessBlobPolicy policy = new SharedAccessBlobPolicy();
             policy.SharedAccessExpiryTime = expirationTime;
@@ -85,10 +84,7 @@ namespace Web.Controllers
 
         private string GetQueueSas(string queueName, string policyName, TimeSpan expirationTime)
         {
-            var serviceUri1 = ServiceBusEnvironment.CreateServiceUri("sb", serviceBusNamespace, queueName)
-               .ToString()
-               .Trim('/');
-
+            var serviceUri1 = ServiceBusEnvironment.CreateServiceUri("sb", serviceBusNamespace, queueName).ToString().Trim('/');
 
             var sas = SharedAccessSignatureTokenProvider.GetSharedAccessSignature(
                 policyName,
@@ -99,23 +95,23 @@ namespace Web.Controllers
             return sas;
         }
 
-        private void SetupQueue(string queueName, string sasPolicyName, AccessRights accessRight)
+        private async Task SetupQueue(string queueName, string sasPolicyName, AccessRights accessRight)
         {
-            this.SetupQueue(queueName, sasPolicyName, accessRight, new TimeSpan(0));
+            await this.SetupQueue(queueName, sasPolicyName, accessRight, new TimeSpan(0));
         }
 
-        private void SetupQueue(string queueName, string sasPolicyName, AccessRights accessRight, TimeSpan autoDeleteOnIdle)
+        private async Task SetupQueue(string queueName, string sasPolicyName, AccessRights accessRight, TimeSpan autoDeleteOnIdle)
         {
             var namespaceManager = NamespaceManager.CreateFromConnectionString(this.serviceBusConnectionString);
-            if (!namespaceManager.QueueExists(queueName))
+            if (!await namespaceManager.QueueExistsAsync(queueName))
             {
-                namespaceManager.CreateQueue(queueName);
+                await namespaceManager.CreateQueueAsync(queueName);
             }
 
-            var queue = namespaceManager.GetQueue(queueName);
+            var queue = await namespaceManager.GetQueueAsync(queueName);
             if (queue.Authorization.All(a => a.KeyName != sasPolicyName))
             {
-                queue.Authorization.Add(new SharedAccessAuthorizationRule(sasPolicyName, sasKey, new[] { accessRight }));
+                queue.Authorization.Add(new SharedAccessAuthorizationRule(sasPolicyName, this.sasKey, new[] { accessRight }));
             }
 
             if (autoDeleteOnIdle.TotalSeconds > 0)
@@ -123,7 +119,7 @@ namespace Web.Controllers
                 queue.AutoDeleteOnIdle = autoDeleteOnIdle;
             }
 
-            namespaceManager.UpdateQueue(queue);
+            await namespaceManager.UpdateQueueAsync(queue);
         }
     }
 }
