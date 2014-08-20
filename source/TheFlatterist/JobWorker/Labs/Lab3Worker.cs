@@ -49,7 +49,7 @@
                     job.ClientId = message.Properties["ClientId"].ToString();
                     job.JobId = message.GetBody<string>();
 
-                    message.Complete();
+                    await message.CompleteAsync();
 
                     return job;
                 }
