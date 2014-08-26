@@ -35,9 +35,9 @@ namespace Client
 
             var name = args[0];
 
-            //// var clientLogic = new Lab1Client();
+            var clientLogic = new Lab1Client();
             //// var clientLogic = new Lab2Client();
-            var clientLogic = new Lab3Client();
+            //// var clientLogic = new Lab3Client();
 
             clientLogic.RunAsync(name).Wait();
         }

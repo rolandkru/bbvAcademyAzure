@@ -45,9 +45,9 @@ namespace JobWorker
         {
             try
             {
-                //// var lab = new Lab1Worker();
+                var lab = new Lab1Worker();
                 //// var lab = new Lab2Worker(); 
-                var lab = new Lab3Worker(); 
+                //// var lab = new Lab3Worker(); 
                 await lab.RunAsync(cancellationToken);
             }
             catch (Exception exp)
