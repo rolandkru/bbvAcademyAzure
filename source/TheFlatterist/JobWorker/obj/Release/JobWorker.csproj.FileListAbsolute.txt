@@ -73,14 +73,12 @@ C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Microsoft
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Microsoft.WindowsAzure.Storage.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Newtonsoft.Json.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\System.Spatial.dll
-C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Common.pdb
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Microsoft.Data.Edm.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Microsoft.Data.OData.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Microsoft.Data.Services.Client.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Microsoft.ServiceBus.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Microsoft.WindowsAzure.Configuration.xml
-C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Microsoft.WindowsAzure.Diagnostics.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Microsoft.WindowsAzure.Storage.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\Newtonsoft.Json.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\System.Spatial.xml
@@ -123,3 +121,4 @@ C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\zh-Hant\S
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\obj\Release\JobWorker.csprojResolveAssemblyReference.cache
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\obj\Release\JobWorker.exe
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\obj\Release\JobWorker.pdb
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Release\MonAgentListener.dll

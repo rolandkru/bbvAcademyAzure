@@ -1,30 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Web.Http;
-using Microsoft.Owin.Security.OAuth;
-using Newtonsoft.Json.Serialization;
-
-namespace Web
+﻿// // --------------------------------------------------------------------------------------------------------------------
+// // <copyright file="ConfigurationManager.cs" company="Selectron Systems AG">
+// //   Copyright (c) Selectron Selectron Systems AG. All rights reserved.
+// // </copyright>
+// // --------------------------------------------------------------------------------------------------------------------
+namespace Web.App_Start
 {
-    public static class WebApiConfig
+    using System.Web.Http;
+
+    public class WebApiConfig
     {
-        public static void Register(HttpConfiguration config)
+        public static void Register(HttpConfiguration configuration)
         {
-            // Web API configuration and services
-            // Configure Web API to use only bearer token authentication.
-            config.SuppressDefaultHostAuthentication();
-            config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
-
-            // Web API routes
-            config.MapHttpAttributeRoutes();
-
-            config.Routes.MapHttpRoute(
-                name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
-            );
+            configuration.Routes.MapHttpRoute("API Default", "api/{controller}/{id}", new { id = RouteParameter.Optional });
         }
     }
 }

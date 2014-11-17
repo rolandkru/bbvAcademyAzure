@@ -4,10 +4,7 @@
     <LocalResources>
       <LocalStorage name="DiagnosticStore" sizeInMB="4096" cleanOnRoleRecycle="false" />
     </LocalResources>
-    <ConfigurationSettings>
-      <Setting name="ServiceBusConnectionString" />
-      <Setting name="StorageConnectionString" />
-    </ConfigurationSettings>
+    <ConfigurationSettings />
     <Endpoints />
     <Certificates />
   </WorkerRole>

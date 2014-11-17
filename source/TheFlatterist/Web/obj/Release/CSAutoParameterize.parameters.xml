@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Web-20140813042808.mdf;Initial Catalog=aspnet-Web-20140813042808;Integrated Security=True" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\rolandkrummenacher\\Documents\\Visual\ Studio\ 2013\\Projects\\TheFlatterist\\Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
-  </parameter>
-  <parameter name="Flatterist-Web.config Connection String" description="Flatterist Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:z26c2fc4h1.database.windows.net,1433;Initial Catalog=flatterist_db;User ID=sadmin@z26c2fc4h1;Password=Pass4Krummi" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\rolandkrummenacher\\Documents\\Visual\ Studio\ 2013\\Projects\\TheFlatterist\\Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Flatterist']/@connectionString" />
+  <parameter name="Flatterist-Web.config Connection String" description="Flatterist Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:x411gqfho2.database.windows.net,1433;Initial Catalog=flatterist;User ID=sadmin@x411gqfho2;Password=Pass4Flatterist" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Projects\\bbvAcademyAzure\\source\\TheFlatterist\\Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Flatterist']/@connectionString" />
   </parameter>
 </parameters>

@@ -86,9 +86,9 @@ C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\obj\Release\JobWorker\Mi
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\obj\Release\JobWorker\Microsoft.ServiceBus.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\obj\Release\JobWorker\Microsoft.WindowsAzure.Configuration.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\obj\Release\JobWorker\Microsoft.WindowsAzure.Diagnostics.dll
-C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\obj\Release\JobWorker\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\obj\Release\JobWorker\Microsoft.WindowsAzure.ServiceRuntime.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\obj\Release\JobWorker\Microsoft.WindowsAzure.Storage.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\obj\Release\JobWorker\MonAgentListener.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\obj\Release\JobWorker\Newtonsoft.Json.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\obj\Release\JobWorker\ru\Microsoft.Data.Edm.resources.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\obj\Release\JobWorker\ru\Microsoft.Data.OData.resources.dll

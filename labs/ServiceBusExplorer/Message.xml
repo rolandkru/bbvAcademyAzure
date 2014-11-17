@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Message xmlns="http://schemas.microsoft.com/servicebusexplorer">
-  <Date>Montag, 25. August 2014 15:54:04</Date>
+  <Date>Montag, 17. November 2014 11:16:38</Date>
   <Content><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <Chat xmlns="http://windowsazure.cat.microsoft.com/samples/multicast">
   <nickname>Paolo</nickname>

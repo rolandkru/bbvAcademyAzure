@@ -1,117 +1,90 @@
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Web.dll.config
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Web.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Web.pdb
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Antlr3.Runtime.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\EntityFramework.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\EntityFramework.SqlServer.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Data.Edm.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Data.OData.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Data.Services.Client.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.ServiceBus.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.WindowsAzure.Configuration.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.WindowsAzure.Storage.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Newtonsoft.Json.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Owin.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Net.Http.Formatting.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Spatial.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Helpers.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Http.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Http.Owin.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Http.WebHost.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Mvc.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Optimization.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Razor.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.WebPages.Deployment.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.WebPages.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.WebPages.Razor.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Web.Common.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\WebGrease.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Web.Common.pdb
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Data.Edm.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Data.OData.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Data.Services.Client.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.ServiceBus.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.WindowsAzure.Configuration.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.WindowsAzure.Storage.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Spatial.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Newtonsoft.Json.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Net.Http.Formatting.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Helpers.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Http.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Http.WebHost.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Mvc.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Optimization.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Razor.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.WebPages.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.WebPages.Deployment.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.WebPages.Razor.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Antlr3.Runtime.pdb
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\EntityFramework.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\EntityFramework.SqlServer.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\System.Web.Http.Owin.xml
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\de\Microsoft.Data.Edm.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\es\Microsoft.Data.Edm.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\fr\Microsoft.Data.Edm.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\it\Microsoft.Data.Edm.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\ja\Microsoft.Data.Edm.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\ko\Microsoft.Data.Edm.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\ru\Microsoft.Data.Edm.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\de\Microsoft.Data.OData.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\es\Microsoft.Data.OData.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\fr\Microsoft.Data.OData.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\it\Microsoft.Data.OData.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\ja\Microsoft.Data.OData.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\ko\Microsoft.Data.OData.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\ru\Microsoft.Data.OData.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\de\Microsoft.Data.Services.Client.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\es\Microsoft.Data.Services.Client.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\fr\Microsoft.Data.Services.Client.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\it\Microsoft.Data.Services.Client.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\ja\Microsoft.Data.Services.Client.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\ko\Microsoft.Data.Services.Client.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\ru\Microsoft.Data.Services.Client.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\de\System.Spatial.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\es\System.Spatial.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\fr\System.Spatial.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\it\System.Spatial.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\ja\System.Spatial.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\ko\System.Spatial.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\ru\System.Spatial.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\zh-Hans\System.Spatial.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\obj\Release\Web.csprojResolveAssemblyReference.cache
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\obj\Release\Web.Migrations.Initial.resources
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\obj\Release\Web.csproj.GenerateResource.Cache
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\obj\Release\Web.dll
-C:\Users\rolandkrummenacher\Documents\Visual Studio 2013\Projects\TheFlatterist\Web\obj\Release\Web.pdb
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Web.dll.config
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Web.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Web.pdb
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Antlr3.Runtime.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Common.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\EntityFramework.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\EntityFramework.SqlServer.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.Data.Edm.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.Data.OData.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.Data.Services.Client.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.ServiceBus.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Newtonsoft.Json.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Net.Http.Formatting.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Spatial.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.Helpers.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.Http.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.Http.WebHost.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.Mvc.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.Optimization.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.Razor.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.WebPages.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.WebPages.Razor.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\WebGrease.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Common.pdb
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\EntityFramework.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\EntityFramework.SqlServer.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.Data.Edm.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.Data.OData.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.Data.Services.Client.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.ServiceBus.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Newtonsoft.Json.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Net.Http.Formatting.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Spatial.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.Http.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.Http.WebHost.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.Helpers.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.Mvc.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.Optimization.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.Razor.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.WebPages.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\System.Web.WebPages.Razor.xml
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\Antlr3.Runtime.pdb
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\de\Microsoft.Data.OData.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\es\Microsoft.Data.OData.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\it\Microsoft.Data.OData.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\de\System.Spatial.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\es\System.Spatial.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\fr\System.Spatial.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\it\System.Spatial.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\ja\System.Spatial.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\ko\System.Spatial.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\ru\System.Spatial.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\zh-Hans\System.Spatial.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\bin\zh-Hant\System.Spatial.resources.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\obj\Release\Web.csprojResolveAssemblyReference.cache
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\obj\Release\Web.Migrations.Initial.resources
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\obj\Release\Web.csproj.GenerateResource.Cache
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\obj\Release\Web.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\Web\obj\Release\Web.pdb

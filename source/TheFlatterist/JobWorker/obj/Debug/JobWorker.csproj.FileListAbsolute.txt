@@ -70,13 +70,11 @@ C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Microsoft.W
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Microsoft.WindowsAzure.Storage.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Newtonsoft.Json.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\System.Spatial.dll
-C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Microsoft.Data.Edm.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Microsoft.Data.OData.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Microsoft.Data.Services.Client.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Microsoft.ServiceBus.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
-C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Microsoft.WindowsAzure.Diagnostics.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Microsoft.WindowsAzure.Storage.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Newtonsoft.Json.xml
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\System.Spatial.xml
@@ -118,7 +116,8 @@ C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\zh-Hans\Sys
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\zh-Hant\System.Spatial.resources.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\obj\Debug\JobWorker.exe
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\obj\Debug\JobWorker.pdb
-C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\obj\Debug\JobWorker.csprojResolveAssemblyReference.cache
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Common.dll
 C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Common.pdb
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\MonAgentListener.dll
+C:\Projects\bbvAcademyAzure\source\TheFlatterist\JobWorker\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll

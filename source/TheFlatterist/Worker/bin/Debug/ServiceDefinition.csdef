@@ -15,10 +15,5 @@
       <Setting name="StorageConnectionString" />
       <Setting name="ServiceBusConnectionString" />
     </ConfigurationSettings>
-    <Contents>
-      <Content destination=".\">
-        <SourceDirectory path="C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\rcf\Debug\JobWorkerContent\" />
-      </Content>
-    </Contents>
   </WorkerRole>
 </ServiceDefinition>

@@ -11,10 +11,7 @@
 <ServiceDefinition name="Worker" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
   <WorkerRole name="JobWorker" vmsize="Small">
     <Imports></Imports>
-    <ConfigurationSettings>
-      <Setting name="StorageConnectionString" />
-      <Setting name="ServiceBusConnectionString" />
-    </ConfigurationSettings>
+    <ConfigurationSettings></ConfigurationSettings>
     <Contents>
       <Content destination=".\">
         <SourceDirectory path="C:\Projects\bbvAcademyAzure\source\TheFlatterist\Worker\rcf\Release\JobWorkerContent\" />

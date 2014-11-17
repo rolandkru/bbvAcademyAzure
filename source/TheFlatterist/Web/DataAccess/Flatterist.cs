@@ -9,14 +9,9 @@
 
 namespace Web.DataAccess
 {
-    using System;
     using System.Data.Entity;
 
-    using Microsoft.AspNet.Identity.EntityFramework;
-
-    using Web.Models;
-
-    public class Flatterist : IdentityDbContext<ApplicationUser>
+    public class Flatterist : DbContext
     {
         // Your context has been configured to use a 'Flatterist' connection string from your application's 
         // configuration file (App.config or Web.config). By default, this connection string targets the 
@@ -28,11 +23,14 @@ namespace Web.DataAccess
         {
         }
 
+        /// <summary>
+        /// Gets or sets the clients.
+        /// </summary>
+        public virtual DbSet<Client> Clients { get; set; }
+
         public static Flatterist Create()
         {
             return new Flatterist();
         }
-
-        public virtual DbSet<Client> Clients { get; set; }
     }
 }
